@@ -1,0 +1,55 @@
+.main-page__cover-section {
+    height: 650px;
+}
+
+.main-page__cover-container {
+    height: 420px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    overflow: hidden;
+}
+
+.main-page__cover {
+    height: 420px;
+}
+
+.main-page__wrap-cover-content {
+    position: absolute;
+    margin-top: 60px;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.main-page__cover-text-container {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.main-page__cover-text {
+    font-size: 30px;
+    font-family: Arial;
+    color: white;
+}
+
+.main-page__cover-title {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Arial;
+    color: white;
+}
+
+.main-page__wrap-mac {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.main-page__mac-link {
+    position: absolute;
+    margin-top: 163px;
+    font-size: 16px;
+    font-family: Tahoma;
+    color: darkviolet;
+}

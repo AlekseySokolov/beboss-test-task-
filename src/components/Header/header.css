@@ -1,0 +1,9 @@
+.header {
+
+}
+
+.logo {
+    height: 22px;
+    margin: 20px;
+    background: url("../../images/logo-biboss.png") no-repeat;
+}

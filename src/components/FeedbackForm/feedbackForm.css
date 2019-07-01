@@ -1,0 +1,82 @@
+.main-page__form-section {
+    margin-top: 25px;
+    width: 800px;
+    height: 310px;
+    background-color: #fff4b3;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-page__form-title {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.main-page__feedback-form {
+    width: 522px;
+    height: 220px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+
+.main-page__input-wrap {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-page__input-container {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.main-page__input-text {
+    padding: 0px;
+    margin: 0;
+    width: 358px;
+    height: 38px;
+    border-radius: 5px;
+    border: 1px solid #a6acb2;
+    box-shadow: none;
+}
+
+.main-page__input-list{
+    padding: 0px;
+    margin: 0;
+    width: 360px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #a6acb2;
+    box-shadow: none;
+}
+
+.main-page__buttonContainer {
+    width: 485px;
+    display: flex;
+    justify-content: center;
+}
+
+.main-page__btn-submit {
+    width: 160px;
+    height: 40px;
+    background-color: #0d972b;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    font-family: Arial;
+}
+
+.main-page__btn-submit.disabled {
+    background-color: #b6d88a;
+}
+
+.main-page__input-error {
+    color: #ff0000;
+}

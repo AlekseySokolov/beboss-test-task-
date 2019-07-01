@@ -1,0 +1,1 @@
+export const SEND = (payload) => ({type : 'SEND', payload});

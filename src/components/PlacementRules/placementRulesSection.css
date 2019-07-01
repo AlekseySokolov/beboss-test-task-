@@ -1,0 +1,33 @@
+.main-page__rules-section {
+    width: 800px;
+    margin-top: 45px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+.main-page__rules-list-wrap {
+    width: 390px;
+}
+
+.main-page__rules-cost-wrap {
+    width: 390px;
+}
+
+.rules-list {
+    padding-right: 15px;
+}
+
+.main-page__cost-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-page__point {
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-family: Arial;
+    font-weight: bold;
+    color: #1ea01e;
+}
